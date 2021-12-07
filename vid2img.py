@@ -4,7 +4,7 @@ import os
 def Vid2Img(path, vid):
     
     cam = cv2.VideoCapture(path)    
-    currentframe = 0
+    currentframe = 1
     while(True):
         ret,frame = cam.read()
 
